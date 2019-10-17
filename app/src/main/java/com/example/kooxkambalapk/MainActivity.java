@@ -119,7 +119,7 @@ public class MainActivity extends AppCompatActivity
 
             }
         });
-        cardView7 = findViewById(R.id.cardsiete);
+     cardView7 = findViewById(R.id.cardsiete);
         cardView7.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
@@ -139,6 +139,7 @@ public class MainActivity extends AppCompatActivity
 
             }
         });
+        /*
         cardView9 = findViewById(R.id.cardocho);
         cardView9.setOnClickListener(new View.OnClickListener() {
 
@@ -180,7 +181,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-
+*/
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
 
