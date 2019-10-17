@@ -120,7 +120,7 @@ public class MainActivity extends AppCompatActivity
 
             }
         });
-        cardView8 = findViewById(R.id.cardsietes);
+        cardView8 = findViewById(R.id.cardocho);
         cardView8.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
@@ -130,8 +130,8 @@ public class MainActivity extends AppCompatActivity
 
             }
         });
-        /*
-        cardView9 = findViewById(R.id.cardocho);
+
+        cardView9 = findViewById(R.id.cardnueve);
         cardView9.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {
@@ -139,8 +139,9 @@ public class MainActivity extends AppCompatActivity
                 startActivity(a);
                 overridePendingTransition(R.transition.dos, R.transition.uno);
 
+
             }
-        });
+        });   /*
         cardView10 = findViewById(R.id.cardnueve);
         cardView10.setOnClickListener(new View.OnClickListener() {
 

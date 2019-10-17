@@ -61,9 +61,11 @@ public class Uno extends AppCompatActivity {
             @Override
             public void onInit(int status) {
                 if(status != TextToSpeech.ERROR) {
-                    Locale loc = new Locale ("spa", "ESP");
+                    Locale locale = new Locale ("es", "MX");
                 }
             }
+            //loc = new Locale("es", "MEX");
+            //myTts.setLanguage(loc);
         });
 
         b1.setOnClickListener(new View.OnClickListener() {

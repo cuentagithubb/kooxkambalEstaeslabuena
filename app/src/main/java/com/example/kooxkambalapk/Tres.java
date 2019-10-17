@@ -2,6 +2,7 @@ package com.example.kooxkambalapk;
 
 
 import android.os.Bundle;
+import android.speech.tts.TextToSpeech;
 import android.view.View;
 import android.widget.Button;
 import android.widget.TextView;
@@ -11,7 +12,13 @@ import androidx.appcompat.app.AppCompatActivity;
 
 import com.google.android.material.bottomsheet.BottomSheetBehavior;
 
+import java.util.Locale;
+
 public class Tres extends AppCompatActivity {
+
+    TextToSpeech t1;
+    TextView ed1;
+    Button b1;
     private BottomSheetBehavior mBottomSheetBehavior;
     private TextView mTextViewState;
 
@@ -43,6 +50,37 @@ public class Tres extends AppCompatActivity {
                 mBottomSheetBehavior.setState(BottomSheetBehavior.STATE_COLLAPSED);
             }
         });
+
+
+        ed1=(TextView) findViewById(R.id.textuno);
+        b1=(Button)findViewById(R.id.button);
+
+        t1=new TextToSpeech(getApplicationContext(), new TextToSpeech.OnInitListener() {
+            @Override
+            public void onInit(int status) {
+                if(status != TextToSpeech.ERROR) {
+                    Locale locale = new Locale ("es", "MX");
+                }
+            }
+            //loc = new Locale("es", "MEX");
+            //myTts.setLanguage(loc);
+        });
+
+        b1.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                String toSpeak = ed1.getText().toString();
+                t1.speak(toSpeak, TextToSpeech.QUEUE_FLUSH, null);
+            }
+        });
+    }
+
+    public void onPause() {
+        if (t1 != null) {
+            t1.stop();
+            t1.shutdown();
+        }
+        super.onPause();
 
         mBottomSheetBehavior.setBottomSheetCallback(new BottomSheetBehavior.BottomSheetCallback() {
             @Override
