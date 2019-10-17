@@ -46,8 +46,27 @@
                     app:cardBackgroundColor="#F9FCFA"
                     app:cardCornerRadius="8dp"
                     app:cardElevation="16dp">
+z
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/carduno"
+                        android:layout_width="341dp"
+                        android:layout_height="171dp"
+                        android:layout_marginStart="10dp"
+                        android:layout_marginEnd="16dp"
+                        app:cardBackgroundColor="#00E676"
+                        app:cardCornerRadius="8dp"
+                        app:cardElevation="16dp">
 
+                        <ImageView
+                            android:id="@+id/imageView1"
+                            android:layout_width="821dp"
+                            android:layout_height="193dp"
+                            android:layout_marginStart="-240dp"
+                            android:layout_marginEnd="16dp"
+                            android:contentDescription="@string/todo"
+                            app:srcCompat="@drawable/chi" />
 
+                    </androidx.cardview.widget.CardView>
                 </androidx.cardview.widget.CardView>
 
 

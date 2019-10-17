@@ -95,7 +95,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="16dp"
-            android:text="@string/_5"
+            android:text="@string/_3"
             android:textSize="16sp" />
 
     </androidx.core.widget.NestedScrollView>
