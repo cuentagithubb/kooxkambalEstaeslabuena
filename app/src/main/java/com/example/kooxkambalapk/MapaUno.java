@@ -15,11 +15,12 @@ public class MapaUno extends AppCompatActivity {
 
     private BottomSheetBehavior mBottomSheetBehavior;
     private TextView mTextViewState;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_mapauno);
-Button button;
+        Button button;
         button = findViewById(R.id.mapasabrirrr);
         button.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -29,7 +30,6 @@ Button button;
 
             }
         });
-
 
 
         getSupportActionBar().setTitle("Mayas");
@@ -86,5 +86,13 @@ Button button;
                 mTextViewState.setText("Sliding...");
             }
         });
+
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.transition.dos, R.transition.uno);
     }
 }

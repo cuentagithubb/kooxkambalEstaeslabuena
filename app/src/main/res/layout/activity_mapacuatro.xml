@@ -104,11 +104,11 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="16dp"
-            android:text="This is a Bottom Sheet\n\nLorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet.
-Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi. Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat.
-Ut wisi enim ad minim veniam, quis nostrud exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea commodo consequat. Duis autem vel eum iriure dolor in hendrerit in vulputate velit esse molestie consequat, vel illum dolore eu feugiat nulla facilisis at vero eros et accumsan et iusto odio dignissim qui blandit praesent luptatum zzril delenit augue duis dolore te feugait nulla facilisi.
-Nam liber tempor cum soluta nobis eleifend option congue nihil imperdiet doming id quod mazim placerat facer"
-            android:textSize="16sp" />
+            android:text="4. Ruinas de Xaman-Há\n\nEstas son las ruinas mayas más cercanas a nuestro destino estrella, ya que se encuentran en la misma zona de Playa del Carmen. Antes de seguir, debes tener en cuenta que para visitar el poblado arqueológico debes solicitar el permiso al Centro del Instituto Nacional de Antropología e Historia de Quintana Roo. Una vez conseguido, podrás acercarte a las ruinas e informar de tu visita en el puesto de control de acceso a las instalaciones. Antes de la llegada de los españoles al Continente, Xaman há (Agua del Norte) era el nombre de toda Playa del Carmen. Te encontrarás en una ciudad con cierto estatus, ya que se trata del lugar en el que los mayas iniciaban su viaje de peregrinación hacia Cozumel, para rendir culto a la diosa maya del amor, Ixchel. La historia es bien romántica y la entrada al yacimiento arqueológico es gratuita.
+
+Contacto para solicitar permisos: Centro INAH Quintana Roo. Insurgentes 974, Colonia Forjadores, Chetumal, Quintana Roo. C.P. 77025.
+Tels. 01 (983) 837 24 11 y 837 0796, ext. 318002 y 318003.
+Correo electrónico: direccion.qroo@inah.gob.mx." android:textSize="16sp" />
 
     </androidx.core.widget.NestedScrollView>
 

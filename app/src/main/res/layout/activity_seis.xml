@@ -1,3 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
 <androidx.coordinatorlayout.widget.CoordinatorLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
@@ -15,7 +16,8 @@
         app:cardCornerRadius="10dp"
         android:layout_marginStart="10dp"
         android:layout_marginTop="20dp"
-        app:cardElevation="10dp">
+        app:cardElevation="10dp"
+        android:layout_marginLeft="10dp">
 
         <TextView
             android:id="@+id/textView"
@@ -25,7 +27,9 @@
             android:layout_marginEnd="16dp"
             android:fontFamily="sans-serif-black"
             android:text="@string/cultura_maya"
-            android:textSize="19sp" />
+            android:textSize="19sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="18dp" />
 
         <Button
             android:id="@+id/button"
@@ -33,7 +37,8 @@
             android:layout_height="42dp"
             android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/altavoz" />
+            android:background="@drawable/altavoz"
+            android:layout_marginLeft="20dp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -43,7 +48,9 @@
             android:layout_marginTop="40dp"
             android:layout_marginEnd="16dp"
             android:text="@string/presiona_para_escuchar"
-            android:textSize="13sp" />
+            android:textSize="13sp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="60dp" />
 
         <Button
             android:id="@+id/button_expand"
@@ -51,7 +58,8 @@
             android:layout_height="43dp"
             android:layout_marginStart="200dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/mas" />
+            android:background="@drawable/mas"
+            android:layout_marginLeft="200dp" />
 
         <Button
             android:id="@+id/button_collapse"
@@ -59,7 +67,8 @@
             android:layout_height="43dp"
             android:layout_marginStart="270dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/no" />
+            android:background="@drawable/no"
+            android:layout_marginLeft="270dp" />
 
 
     </androidx.cardview.widget.CardView>
@@ -94,9 +103,10 @@
         <TextView
             android:layout_width="match_parent"
             android:layout_height="match_parent"
+            android:id="@+id/textuno"
             android:padding="16dp"
             android:text="@string/_5"
-           android:textSize="16sp" />
+            android:textSize="16sp" />
 
     </androidx.core.widget.NestedScrollView>
 

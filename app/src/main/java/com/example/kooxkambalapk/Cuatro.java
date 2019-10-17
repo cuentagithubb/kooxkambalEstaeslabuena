@@ -31,7 +31,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, VideoUno.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -40,8 +40,8 @@ public class Cuatro extends AppCompatActivity {
         cardView2.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Cuatro.this, Dos.class);
-                startActivity(a);
+                Intent a = new Intent(Cuatro.this, VideoDos.class);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -49,8 +49,8 @@ public class Cuatro extends AppCompatActivity {
         cardView3.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Cuatro.this, Tres.class);
-                startActivity(a);
+                Intent a = new Intent(Cuatro.this, VideoTres.class);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -59,7 +59,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, Cuatro.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -68,7 +68,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, Cinco.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -77,7 +77,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, Seis.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -86,7 +86,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, Siete.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -95,7 +95,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, Ocho.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -104,7 +104,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, Nueve.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -113,7 +113,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, Diez.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -122,7 +122,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, Once.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });
@@ -131,7 +131,7 @@ public class Cuatro extends AppCompatActivity {
             @Override
             public void onClick(View view) {
                 Intent a = new Intent(Cuatro.this, Doce.class);
-                startActivity(a);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
         });

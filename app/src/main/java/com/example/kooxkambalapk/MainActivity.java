@@ -1,11 +1,14 @@
 package com.example.kooxkambalapk;
 
+import android.content.DialogInterface;
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.KeyEvent;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.view.View;
 
+import androidx.appcompat.app.AlertDialog;
 import androidx.appcompat.app.AppCompatActivity;
 import androidx.appcompat.widget.Toolbar;
 import androidx.cardview.widget.CardView;
@@ -29,19 +32,7 @@ public class MainActivity extends AppCompatActivity
         setContentView(R.layout.activity_main);
 
 
-        FloatingActionButton fab = findViewById(R.id.fab);
-        fab.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                    Intent a = new Intent(MainActivity.this, Uno.class);
-                    startActivity(a);
-                    overridePendingTransition(R.transition.dos, R.transition.uno);
-            }
-        });
-        DrawerLayout drawer = findViewById(R.id.drawer_layout);
-        NavigationView navigationView = findViewById(R.id.nav_view);
-        // Passing each menu ID as a set of Ids because each
-        // menu should be considered as top level destinations
+
 
 
         CardView cardView;
@@ -183,6 +174,31 @@ public class MainActivity extends AppCompatActivity
 
         Toolbar toolbar = findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+    }
+        @Override
+        public boolean onKeyDown(int keyCode, KeyEvent event) {
+
+            if (keyCode == android.view.KeyEvent.KEYCODE_BACK) {
+
+                new AlertDialog.Builder(this)
+                        .setIcon(android.R.drawable.ic_dialog_alert)
+                        .setTitle("Salir")
+                        .setMessage("Estás seguro?")
+                        .setNegativeButton(android.R.string.cancel, null)// sin listener
+                        .setPositiveButton(android.R.string.ok, new DialogInterface.OnClickListener() {// un listener que al pulsar, cierre la aplicacion
+                            @Override
+                            public void onClick(DialogInterface dialog, int which) {
+// Salir
+                                MainActivity.this.finish();
+                            }
+                        })
+                        .show();
+
+// Si el listener devuelve true, significa que el evento esta procesado, y nadie debe hacer nada mas
+                return true;
+            }
+// para las demas cosas, se reenvia el evento al listener habitual
+            return super.onKeyDown(keyCode, event);
 
 
     }

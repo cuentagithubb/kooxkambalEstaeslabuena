@@ -17,7 +17,7 @@ public class MapaNueve extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_mapados);
+        setContentView(R.layout.activity_mapanueve);
         Button button;
         button = findViewById(R.id.mapasabrirrr);
         button.setOnClickListener(new View.OnClickListener() {
@@ -85,5 +85,13 @@ public class MapaNueve extends AppCompatActivity {
                 mTextViewState.setText("Sliding...");
             }
         });
+
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.transition.dos, R.transition.uno);
     }
 }

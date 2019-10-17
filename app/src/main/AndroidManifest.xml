@@ -13,7 +13,12 @@
         <meta-data
             android:name="com.google.android.geo.API_KEY"
             android:value="@string/google_maps_key" />
-
+        <activity
+            android:name=".VideoTres"
+            android:configChanges="screenSize|orientation" />
+        <activity
+            android:name=".VideoDos"
+            android:configChanges="screenSize|orientation" />
         <activity
             android:name=".MapaDiez"
             android:configChanges="screenSize|orientation" />

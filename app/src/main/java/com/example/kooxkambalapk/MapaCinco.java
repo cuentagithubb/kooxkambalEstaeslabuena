@@ -85,5 +85,13 @@ public class MapaCinco extends AppCompatActivity {
                 mTextViewState.setText("Sliding...");
             }
         });
+
+
+    }
+
+    @Override
+    public void onBackPressed() {
+        super.onBackPressed();
+        overridePendingTransition(R.transition.dos, R.transition.uno);
     }
 }

@@ -32,6 +32,7 @@ public class Dos extends AppCompatActivity {
                 Intent a = new Intent(Dos.this, MapaUno.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
+
             }
 
 
