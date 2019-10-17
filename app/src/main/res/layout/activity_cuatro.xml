@@ -54,7 +54,7 @@
                         android:layout_marginStart="-240dp"
                         android:layout_marginEnd="16dp"
                         android:contentDescription="@string/todo"
-                        app:srcCompat="@drawable/video"
+                        app:srcCompat="@drawable/ls"
                         android:layout_marginRight="16dp"
                         android:layout_marginLeft="-240dp" />
 
@@ -93,7 +93,7 @@
                         android:layout_marginStart="-240dp"
                         android:layout_marginEnd="16dp"
                         android:contentDescription="@string/todo"
-                        app:srcCompat="@drawable/dos"
+                        app:srcCompat="@drawable/qd"
                         android:layout_marginRight="16dp"
                         android:layout_marginLeft="-240dp" />
 
@@ -124,8 +124,18 @@
                     app:cardCornerRadius="8dp"
                     app:cardElevation="16dp">
 
+                    <ImageView
+                        android:id="@+id/imageView2"
+                        android:layout_width="821dp"
+                        android:layout_height="193dp"
+                        android:layout_marginStart="-240dp"
+                        android:layout_marginEnd="16dp"
+                        android:contentDescription="@string/todo"
+                        app:srcCompat="@drawable/hm"
+                        android:layout_marginRight="16dp"
+                        android:layout_marginLeft="-240dp" />
                 </androidx.cardview.widget.CardView>
-
+<!--
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardespaciotres"
                     android:layout_width="341dp"
@@ -360,7 +370,7 @@
                     app:cardElevation="16dp">
 
                 </androidx.cardview.widget.CardView>
-
+-->
 
 
 

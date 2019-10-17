@@ -117,6 +117,7 @@ public class Cuatro extends AppCompatActivity {
 
             }
         });
+        /*
         cardView11 = findViewById(R.id.videoonce);
         cardView11.setOnClickListener(new View.OnClickListener() {
             @Override
@@ -135,7 +136,7 @@ public class Cuatro extends AppCompatActivity {
 
             }
         });
-
+*/
     }
     @Override
     public void onBackPressed()

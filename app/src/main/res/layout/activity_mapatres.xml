@@ -24,7 +24,7 @@
             android:layout_marginLeft="18dp"
             android:layout_marginRight="16dp"
             android:fontFamily="sans-serif-black"
-            android:text="CULTURA MAYA"
+            android:text="CHICHÉN ITZÁ"
             android:textSize="19sp" />
 
         <Button
@@ -68,7 +68,7 @@
             android:layout_height="105dp"
             android:layout_marginLeft="200dp"
             android:layout_marginTop="7dp"
-            android:background="@drawable/imgubi"/>
+            android:background="@drawable/chichen"/>
 
     </androidx.cardview.widget.CardView>
 
@@ -104,7 +104,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:padding="16dp"
-            android:text="3. Cobá\n\nNos quedamos en Quintana Roo para conocer las ruinas mayas precolombinas de Cobá. Su nombre original Co-Bah, significa agua abundante y vete bien preparado por si deseas combinar la visita con el baño en alguno de sus cinco lagos o cenotes que rodean las instalaciones arqueológicas. Cobá está ubicada a unos 100 kilómetros de Playa del Carmen y a unos 40 de Tulum. Es un lugar muy interesante, con una apariencia similar a Chinchén Itzá, pero aquí juegas con ventaja si huyes de las multitudes, ya que es la gran desconocida, por ser la menos visitada. Aprovecha y disfruta, porque se trata de la mayor ciudad comercial que los mayas edificaron en la zona de Yucatán. La subida a la pirámide es por tu cuenta y riesgo, ya que existen carteles de advertencias por todas partes. Es cierto que las vistas desde arriba son una pasada, con toda la jungla a tus pies. De todos modos debes tener cuidado porque ascenderás por una pendiente muy pronunciada, con 110 difíciles escalones que te llevarán hasta la cumbre, situada a 42 metros de altura y que la coronan como la pirámide más alta de todo Yucatán. Para ayudarte sólo existen unas grandes cuerdas ancladas a la cima. Así que ve con calma y mucho cuidado."
+android:text="Comenzamos con la Ciudad Prehispánica de Chichén-Itzá, según el nombre con el que quedó registrada, en la lista del Patrimonio de la Humanidad de la UNESCO, en 1988. Para llegar a estos valiosísimos restos arqueológicos y uno de los monumentos mayas más visitados de todo México, nos desplazaremos hasta Tinum, a unos 180 kilómetros de Playa del Carmen y a unos 200 kilómetros de Cancún. Desde ambos puntos de partida existen servicios de autobuses turísticos, también se puede contratar la excursión en hotel o agencia o tomar un carro de alquiler. Las comunicaciones, en cualquier caso, son excelentes. Chichén Itzá está emplazada en Yucatán, donde los mayas fueron muy prolíficos a la hora de levantar sus edificios; tanto es así que a menudo a Yucatán se la denomina ‘Mayab’. Dentro de esta ciudad, muy bien conservada, de un período en que la civilización entró en decadencia, se encuentra el Templo de Kukulcán, reconocido como una de las Siete Maravillas del Mundo Moderno. Al ser una ciudad completa, tendremos la ocasión de hacer un recorrido prácticamente por todo tipo de instalaciones de estos pueblos: ‘canchas’ para juegos de pelota, templos, lugares de sacrificios como el Cenote Sagrado, emplazamientos de comerciantes o guerreros"
             android:textSize="16sp" />
 
     </androidx.core.widget.NestedScrollView>
