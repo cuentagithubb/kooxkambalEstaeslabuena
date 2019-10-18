@@ -25,14 +25,13 @@ public class MapaUno extends AppCompatActivity {
         button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(MapaUno.this, Mapsuno.class);
-                startActivity(a);
+                Intent a = new Intent(MapaUno.this, gg.class);
+                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
+
 
             }
         });
 
-
-        getSupportActionBar().setTitle("Mayas");
 
 
         View bottomSheet = findViewById(R.id.bottom_sheet);

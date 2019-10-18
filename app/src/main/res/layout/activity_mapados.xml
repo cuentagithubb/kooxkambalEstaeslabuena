@@ -16,6 +16,16 @@
         android:layout_marginLeft="10dp"
         android:layout_marginTop="20dp"
         app:cardElevation="10dp">
+        <ImageView
+            android:id="@+id/imageView8"
+            android:layout_width="821dp"
+            android:layout_height="193dp"
+            android:layout_marginStart="-240dp"
+            android:layout_marginEnd="16dp"
+            android:background="@drawable/pergamino"
+            android:contentDescription="@string/todo"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="-240dp" />
 
         <TextView
             android:id="@+id/textView"
@@ -31,9 +41,10 @@
             android:id="@+id/button"
             android:layout_width="30dp"
             android:layout_height="42dp"
-            android:layout_marginLeft="20dp"
+            android:layout_marginStart="20dp"
             android:layout_marginTop="30dp"
-            android:background="@drawable/altavoz" />
+            android:background="@drawable/altavoz"
+            android:layout_marginLeft="20dp" />
 
         <TextView
             android:id="@+id/textView2"
@@ -51,7 +62,7 @@
             android:layout_height="43dp"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="75dp"
-            android:background="@drawable/mas" />
+            android:background="@drawable/ver" />
 
         <Button
             android:id="@+id/button_collapse"
@@ -64,18 +75,18 @@
 
         <Button
             android:id="@+id/mapasabrirrr"
-            android:layout_width="113dp"
-            android:layout_height="105dp"
+            android:layout_width="95dp"
+            android:layout_height="85dp"
             android:layout_marginLeft="200dp"
             android:layout_marginTop="7dp"
-            android:background="@drawable/imgubi"/>
+            android:background="@drawable/imgubi" />
 
     </androidx.cardview.widget.CardView>
 
     <LinearLayout
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:background="@drawable/fondoubi"
+        android:background="@drawable/uno"
         android:gravity="center_horizontal"
         android:orientation="vertical">
 
@@ -86,7 +97,6 @@
             android:layout_height="wrap_content"
             android:layout_marginTop="16dp"
             android:textSize="30sp" />
-
 
 
     </LinearLayout>
