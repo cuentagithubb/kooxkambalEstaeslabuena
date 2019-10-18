@@ -108,7 +108,7 @@ public class Cuatro extends AppCompatActivity {
 
             }
         });
-        cardView10 = findViewById(R.id.mapadiez);
+       /* cardView10 = findViewById(R.id.mapadiez);
         cardView10.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {

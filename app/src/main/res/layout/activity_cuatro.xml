@@ -87,7 +87,7 @@
                     app:cardElevation="16dp">
 
                     <ImageView
-                        android:id="@+id/imageView2"
+                        android:id="@+id/imageView22"
                         android:layout_width="821dp"
                         android:layout_height="193dp"
                         android:layout_marginStart="-240dp"
@@ -135,7 +135,7 @@
                         android:layout_marginRight="16dp"
                         android:layout_marginLeft="-240dp" />
                 </androidx.cardview.widget.CardView>
-<!--
+
                 <androidx.cardview.widget.CardView
                     android:id="@+id/cardespaciotres"
                     android:layout_width="341dp"
@@ -370,7 +370,7 @@
                     app:cardElevation="16dp">
 
                 </androidx.cardview.widget.CardView>
--->
+
 
 
 

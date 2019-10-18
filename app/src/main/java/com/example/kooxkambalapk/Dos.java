@@ -29,11 +29,13 @@ public class Dos extends AppCompatActivity {
         cardView.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaUno.class);
-                startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
+                Intent a = new Intent(Dos.this, Chichenmapa.class);
+                startActivity(a);
+                overridePendingTransition(R.transition.dos, R.transition.uno);
 
 
             }
+
 
 
         });
@@ -42,7 +44,7 @@ public class Dos extends AppCompatActivity {
         cardViewdos.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaDos.class);
+                Intent a = new Intent(Dos.this, Tulummapa.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
@@ -54,7 +56,7 @@ public class Dos extends AppCompatActivity {
         cardViewtres.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaTres.class);
+                Intent a = new Intent(Dos.this, Cobamapa.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
@@ -66,18 +68,19 @@ public class Dos extends AppCompatActivity {
         cardViewcuatro.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaCuatro.class);
+                Intent a = new Intent(Dos.this, Xammapa.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
 
 
         });
+
         cardViewcinco= findViewById(R.id.mapasiete);
         cardViewcinco.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaCinco.class);
+                Intent a = new Intent(Dos.this, Xcamapa.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
@@ -89,7 +92,7 @@ public class Dos extends AppCompatActivity {
         cardViewseis.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaSeis.class);
+                Intent a = new Intent(Dos.this, Uxmapa.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
@@ -101,40 +104,45 @@ public class Dos extends AppCompatActivity {
         cardViewsiete.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaSiete.class);
+                Intent a = new Intent(Dos.this, Palemapa.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
 
 
         });
+
+
         cardViewocho= findViewById(R.id.mapaochoss);
         cardViewocho.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaOcho.class);
+                Intent a = new Intent(Dos.this, Kohumapa.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
 
 
         });
+
+
         cardViewnueve= findViewById(R.id.mapanueve);
         cardViewnueve.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaNueve.class);
+                Intent a = new Intent(Dos.this, Sanmmapa.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
             }
 
 
         });
+
         cardViewdiez= findViewById(R.id.mapadiezz);
         cardViewdiez.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
-                Intent a = new Intent(Dos.this, MapaDiez.class);
+                Intent a = new Intent(Dos.this, Tajmapa.class);
                 startActivity(a);overridePendingTransition(R.transition.dos, R.transition.uno);
 
 
@@ -151,8 +159,7 @@ public class Dos extends AppCompatActivity {
     {
         super.onBackPressed();
         overridePendingTransition(R.transition.dos, R.transition.uno);
-    }
+            }
 
 
-
-}
+        }

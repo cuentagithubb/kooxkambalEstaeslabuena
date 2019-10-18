@@ -131,7 +131,7 @@ public class MainActivity extends AppCompatActivity
             }
         });
 
-        cardView9 = findViewById(R.id.cardnueve);
+       /* cardView9 = findViewById(R.id.cardnueve);
         cardView9.setOnClickListener(new View.OnClickListener() {
 
             public void onClick(View view) {

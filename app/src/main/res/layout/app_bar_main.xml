@@ -54,25 +54,25 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/carduno"
                 android:layout_width="341dp"
-                android:layout_height="171dp"
+                android:layout_height="156dp"
                 android:layout_marginStart="10dp"
+                android:layout_marginLeft="10dp"
                 android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
                 app:cardBackgroundColor="#00E676"
                 app:cardCornerRadius="8dp"
-                app:cardElevation="16dp"
-                android:layout_marginRight="16dp"
-                android:layout_marginLeft="10dp">
+                app:cardElevation="16dp">
 
                 <ImageView
                     android:id="@+id/imageView1"
                     android:layout_width="821dp"
                     android:layout_height="193dp"
                     android:layout_marginStart="-240dp"
+                    android:layout_marginLeft="-240dp"
                     android:layout_marginEnd="16dp"
-                    android:contentDescription="@string/todo"
-                    app:srcCompat="@drawable/historia"
                     android:layout_marginRight="16dp"
-                    android:layout_marginLeft="-240dp" />
+                    android:contentDescription="@string/todo"
+                    app:srcCompat="@drawable/historia" />
 
             </androidx.cardview.widget.CardView>
 
@@ -80,7 +80,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardespacio"
                 android:layout_width="341dp"
-                android:layout_height="10dp"
+                android:layout_height="15dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="@android:color/transparent"
@@ -95,7 +95,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/carddos"
                 android:layout_width="341dp"
-                android:layout_height="171dp"
+                android:layout_height="156dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="#FF9100"
@@ -120,7 +120,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardespaciodos"
                 android:layout_width="341dp"
-                android:layout_height="10dp"
+                android:layout_height="15dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="@android:color/transparent"
@@ -135,7 +135,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardtres"
                 android:layout_width="341dp"
-                android:layout_height="171dp"
+                android:layout_height="156dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="#00B0FF"
@@ -159,7 +159,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardespaciotres"
                 android:layout_width="341dp"
-                android:layout_height="10dp"
+                android:layout_height="15dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="@android:color/transparent"
@@ -174,7 +174,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardcuatro"
                 android:layout_width="341dp"
-                android:layout_height="171dp"
+                android:layout_height="156dp"
                 android:layout_marginStart="10dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="#FF3D00"
@@ -197,7 +197,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardespaciocuatro"
                 android:layout_width="341dp"
-                android:layout_height="10dp"
+                android:layout_height="15dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="@android:color/transparent"
@@ -237,7 +237,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardespaciocincossss"
                 android:layout_width="341dp"
-                android:layout_height="10dp"
+                android:layout_height="15dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="@android:color/transparent"
@@ -278,7 +278,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardespaciocinco"
                 android:layout_width="341dp"
-                android:layout_height="10dp"
+                android:layout_height="15dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="@android:color/transparent"
@@ -315,7 +315,7 @@
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardssiete"
                 android:layout_width="341dp"
-                android:layout_height="10dp"
+                android:layout_height="15dp"
                 android:layout_marginStart="8dp"
                 android:layout_marginEnd="16dp"
                 app:cardBackgroundColor="@android:color/transparent"
@@ -373,6 +373,7 @@
 
             </androidx.cardview.widget.CardView>
 
+            <!--
             <androidx.cardview.widget.CardView
                 android:id="@+id/cardnueve"
                 android:layout_width="341dp"
@@ -410,6 +411,7 @@
                     android:layout_marginLeft="-240dp" />
 
             </androidx.cardview.widget.CardView>
+            -->
             <!--
                         <androidx.cardview.widget.CardView
                             android:id="@+id/cardnueve"
